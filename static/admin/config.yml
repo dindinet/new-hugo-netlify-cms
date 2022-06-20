@@ -1,6 +1,7 @@
 # using git as backend store
 backend:
-  name: git-gateway
+  name: github
+  repo: dindinet/new-hugo-netlify-cms
   branch: main
 media_folder: "/static/media" # Folder where user uploaded files should go
 public_folder: "/media"
